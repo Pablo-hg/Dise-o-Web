@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    
+</head>
+
+<body>
+    <h1>Ejercicio HTML</h1>
+    <p>Pongamos en práctica lo que hemos aprendido de HTML5.</p>
+    <P>Enlaces vinculados a los apartados del coumentos:</P>
+    <ol type="I" start="1">
+        <li>Etiqueta del cuerpo del documento</li>
+        <li>Etiquetas in-line</li>
+        <li>Añadiendo una cita</li>
+        <li>Añadiendo una imagen escalada</li>
+        <li>Añadienod enlaces</li>
+        <li>Tablas</li>
+        <li>Formulario</li>
+    </ol>
+    <p><b>Advertencia:</b><em> Sólo existe en <u>dos ocasiones</u> código HTML con estilo , es decir declarados en el
+            interior de la etiqueta.</em></p>
+    <hr />
+    <h2>Etiquetas del cuerpo del documento</h2>
+    <h3>Texto pre-formateado</h3>
+    <p><code>Este texto tiene un formato prederteminado.</code></p>
+    <h3>Dirección</h3>
+    <p>Autor : <span style="background-color: yellow;">PABLO HORCAJDA GONZÁLEZ</span><br />Fecha : 29/10/2021 </p>
+    <h2>Etiquetas in-line</h2>
+    <p>El siguiente texto está <em>enfatizado</em> y <strong>éste todavia más.</strong></p>
+    <p>También podemos indicar que el texto está <del>borrado</del> o <in>insertado.</in>
+    </p>
+    <h2>Añadiendo una imagen escalada</h2>
+    <p>La siguiente imagen corresponde al logo de la Consejería de Educaión de la Comunidad de Madrid presente en la
+        página web del ISEP CEU, y se encuentra escalada a 100x50 píxeles.</p>
+    <img src="https://www.isepceu.es/wp-content/themes/isepceu/img/logo-isepceu-homologado-madrid.gif" width="100px"
+        height="50px">
+    <h2>Añadiendo enlaces</h2>
+    <p>Los siguientes enlaces corresponden a los principales buscadores webs:</p>
+    <ul style="list-style-type: square">
+        <li><a href="https://google.com" target="_blank">Google</a></li>
+        <li><a href="https://es.search.yahoo.com/" target="_blank">Yahoo Search</a></li>
+    </ul>
+    <h2>Añadiendo una cita y una imagen</h2>
+    <p>"Ya sé que te da miedo decepcionamre, pero espero que te consulte saber que mis expectativas sobre ti son muy
+        pobres".</p>
+    <img src="https://spoilertime.com/wp-content/uploads/2017/12/1-18.gif"><br /><em>The Big Bang Theory.</em>
+    <b>Sheldon Cooper.</b>
+    <p>La imagen y al fotografia proceden de
+        <code>https://spoilertime.com/10-frases-de-sheldon-con-las-que-no-podemos-dejar-de-reir/</code></p>
+    <h2>Formulario</h2>
+    <p>Para realizar el siguiente formulario has de tener en cuneta los siguientes criterios :</p>
+    <ul style="list-style-type: disc">
+        <li>Las variables no se ven en la URL al enviarse el formulario.</li>
+        <li>El campo de acción se encuentra vacio.</li>
+        <li>Cada etiqueta posee su funcionalidad específica en HTML5.</li>
+        <li>Los botones tienen funcionalidad.</li>
+        <li>Todas las etiquetas poseen nombre.</li>
+        <li>Si se visualiza cualquier elección, es porque viene por defecto.</li>
+        <li>El desplegable de nivel "nivel de inglés" cuenta con los siguientes niveles:</li>
+        <ul style="list-style-type: circle">
+            <li>Nativo</li>
+            <li>Avanzado</li>
+            <li>Intermedio</li>
+            <li>Bajo</li>
+        </ul>
+    </ul>
+    <fieldset>
+        <legend>Datos del candicato</legend>
+        <span>Nombre:<input type="text" placeholder="María"></span><span>Apellidos:<input type="text"
+                placeholder="Gómez Landaburu"></span><br />
+        <span>Email:<input type="text" placeholder="mariajo@gmail.com"></span><span>Telefono:<input type="text"
+                placeholder="123-456-789"></span><br />
+        <span>Cumpoleaños:<input type="date" value="dd/mm/aaaa">Sexo:</span><span><input type="radio">H<input
+                type="radio">M</span><br />
+        <span>Lenguajes de programación: <input type="checkbox">HTML<input type="checkbox">CSS<input
+                type="checkbox">JS<input type="checkbox">PHP<input type="checkbox">Otros</span><br />
+        <span>Inglés: Hablado <input type=>Escrito<input></span><br />
+        <span>Archivos Adjuntos: <input type="button" value="Elegir archivos">No se elegió archivo</span><br />
+        <input type="button" value="Borrar">
+        <input type="button" value="Enviar">
+    </fieldset>
+    <p>Este documento ha sido testeadoa a una resolucion de 600x1200 mediante el plugin Resolution Test de Chrome</p>
+    <h2>Tablas</h2>
+    <p>Para realizar la siguiente tabla has de colocar el siguiente código de estilo interno en el apartado
+        correspondiente para que surja efecto.</p>
+    <code>table, th, td {border: 1px solid black;}</code><br />
+    <div style="border: 1px solid black;"></div>
+</body>
+
+</html>
