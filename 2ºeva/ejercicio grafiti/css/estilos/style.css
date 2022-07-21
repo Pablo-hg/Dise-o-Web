@@ -1,0 +1,18 @@
+h1{
+    /*
+    ponemos como tamaño del texto el resultado de sumar
+        60 pixeles más el 4 % del ancho de la pantalla
+    */
+    font-size: calc(60px + 4vw);
+    /*añadimos sobras al texto arriba,derecha y abajo*/
+    text-shadow: black 0.1em 0.1em 0.2em;
+    /*lo pintamos de color rojo*/
+    color: red;
+    /*ponemos como fuente del texto "impact*/
+    font-family: Impact;
+
+}
+/* ponemos como fondo del "body" una imagen */
+body{
+    background-image: url("../imagenes/ladrillo-tosco.png.png");
+}

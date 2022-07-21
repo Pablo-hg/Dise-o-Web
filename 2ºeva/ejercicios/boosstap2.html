@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Permite que todos los dispoditivos moviles puedan hacer zoom-->
+        <meta name="viewport" content="width=device-width, initical-scale=1.0">
+        <!-- Al añadir "user-scalable=no" hace que los usuarios no puedan hacer zoom y solo puedan hacer scrool-->
+        <meta name="viewport" content="width=device-width, initical-scale=1.0, maximun-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.css" >
+        <title>Primea web con boostrap</title>
+    </head>
+    <body>
+        <h1>Mi web en mobil</h1>
+        <!-- ancho fijo centrado (por defecto 12 columnas)-->
+        <div class="container">
+            <div class="row">
+                <!-- obtiene 4 columnas-->
+                <div class="col-lg-4" style="background-color: #aaa;">
+                    <h1>Columna1</h1>
+                    <p>Esto es una prueba</p>
+                </div>
+                <div class="col-lg-4" style="background-color: #aaa;">
+                    <h1>Columna1</h1>
+                    <p>Esto es una prueba</p>
+                </div>
+                <div class="col-lg-4" style="background-color: #aaa;">
+                    <h1>Columna1</h1>
+                    <p>Esto es una prueba</p>
+                </div>
+            </div>
+        </div> 
+        <!-- ancho variable que se adapta al ancho del navegador-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4" style="background-color: #aaa;">
+                    <h1>Columna1</h1>
+                    <p>Esto es una prueba</p>
+                </div>
+                <div class="col-lg-4" style="background-color: #aaa;">
+                    <h1>Columna1</h1>
+                    <p>Esto es una prueba</p>
+                </div>
+                <div class="col-lg-4" style="background-color: #aaa;">
+                    <h1>Columna1</h1>
+                    <p>Esto es una prueba</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <!-- 
+                class="row align-items-start" -> alinea la fila a la parte superior
+                class="row align-items-center" -> alinea la fila a la parte central
+                class="row align-items-end" -> alinea la fila  ala parte inferior
+                class="row align-items-self-end" -> individiualmente la columna
+            -->
+            <div class="row align-items-self-end" style="height: 300px; background-color: rgb(221, 0, 0)">
+                <div class="col align-items-start" style="background-color: M#aaa">
+                    <h1>Columna 1</h1>
+                </div>
+                <div class="col align-items-center" style="background-color: M#bbb">
+                    <h1>Columna 2</h1>
+                </div>
+                <div class="col align-items-self-end" style="background-color: Mi#ccc">
+                    <h1>Columna 3</h1>
+                </div>
+            </div> 
+        </div>
+    </body>
+</html>
